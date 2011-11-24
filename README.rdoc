@@ -1,0 +1,16 @@
+= QGIS Hub plugin for Redmine
+
+A plugin to customize Redmine on http://hub.qgis.org
+
+== Features
+* hide project members in project overview if more than 50
+* default parent project is 'qgis-user-plugins'
+
+== Installation
+
+get plugin:
+  cd redmine/vendor/plugins/
+  git clone --depth 1 git://github.com/qgis/redmine_qgis_hub.git
+
+migrate plugin DB:
+  rake db:migrate_plugins

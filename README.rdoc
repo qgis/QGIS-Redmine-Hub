@@ -16,5 +16,8 @@ install QGIS theme:
   cd redmine_qgis_hub/
   cp themes/qgis/ ../../../public/themes/
 
+Set favicon:
+  cp themes/qgis/images/favicon.ico ../../../public/
+
 migrate plugin DB:
   rake db:migrate_plugins

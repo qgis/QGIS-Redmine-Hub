@@ -1,0 +1,72 @@
+@import url(../../../stylesheets/application.css);
+
+body{ 
+	color:#303030; 
+	/*background:#FFFFFF;*/ 
+	margin: 10px auto 30px auto;
+	min-width: 900px;
+    	padding: 0;
+    	/*width: 988px;*/
+    	background-color: #2A5075;
+}
+
+#top-menu { 
+	font-size: 80%; 
+	height: 2em; 
+	padding-top: 0.5em; 
+	background-color: #578bb8; 
+}
+
+#header { 
+	background: #467aa7; 
+	height: 84px;
+	padding: 5px 0 5px 0;
+	background-color: #E2E7EB;
+	background-image: url("../images/bg_logo.png");
+	background-repeat: repeat-x;
+	background-attachment: scroll;
+	background-position: center top;
+}
+
+#header h1 { 
+	background-image:url(../images/logo.png);
+	background-repeat: no-repeat;
+	height: 50px;
+	color: #595959;
+	padding-left: 60px;
+	padding-top: 15px;
+	}
+
+#header a {
+	color: black;
+}
+
+
+#footer { 
+	background-color: #2A5075; 
+	border: 0; 
+	color: #fff;
+}
+
+#footer a { 
+	color: #fff; 
+	font-weight: bold; 
+}
+
+#main { 
+	font:90% Verdana,Tahoma,Arial,sans-serif; 
+	background: #e8eaec; 
+}
+
+#main-menu { 
+	border-top: 1px solid #fff; 
+	width: 100%;
+	background-image:url(../images/bg_menu.png);
+	color:black; 
+	margin-left: -6px;
+	position:relative;
+}
+
+#main-menu li a {
+    color: black;
+}

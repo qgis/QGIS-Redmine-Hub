@@ -12,5 +12,9 @@ get plugin:
   cd redmine/vendor/plugins/
   git clone --depth 1 git://github.com/qgis/redmine_qgis_hub.git
 
+install QGIS theme:
+  cd redmine_qgis_hub/
+  cp themes/qgis/ ../../../public/themes/
+
 migrate plugin DB:
   rake db:migrate_plugins

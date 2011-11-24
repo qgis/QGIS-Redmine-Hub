@@ -1,5 +1,5 @@
   <%# hide project members if more than 50 %>
-  <% if @users_by_role.any? && @users_by_role.count <= 50 %>
+  <% if @users_by_role.any? && @users_by_role.values.flatten.size <= 50 %>
 	<div class="members box">
 		<h3><%=l(:label_member_plural)%></h3>	
 		<p><% @users_by_role.keys.sort.each do |role| %>

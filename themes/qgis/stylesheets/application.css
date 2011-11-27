@@ -2,6 +2,7 @@
 
 body{ 
 	color:#303030; 
+        font-size: 13px;
 	/*background:#FFFFFF;*/ 
 	margin: 10px auto 30px auto;
 	min-width: 900px;

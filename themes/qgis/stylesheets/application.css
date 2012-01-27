@@ -55,8 +55,9 @@ body{
 }
 
 #main { 
-	font:90% Verdana,Tahoma,Arial,sans-serif; 
+	font:100.01% Verdana,Tahoma,Arial,sans-serif; 
 	background: #e8eaec; 
+  	line-height: 1.4em;
 }
 
 #main-menu { 
@@ -70,4 +71,25 @@ body{
 
 #main-menu li a {
     color: black;
+}
+
+div.wiki ul.toc {
+	background-color: #ffffdd;
+	border: 1px solid #e4e4e4;
+	padding: 4px;
+	line-height: 1.3em;
+	margin-bottom: 12px;
+	margin-right: 12px;
+	margin-left: 0;
+	display: table
+}
+
+div.wiki ul.toc li.heading2 { margin-left: 6px; }
+div.wiki ul.toc li.heading3 { margin-left: 12px; font-size: 0.9em; }
+
+div.wiki ul.toc a {
+	font-size: 1em;
+	font-weight: normal;
+	text-decoration: none;
+	color: #6;
 }
